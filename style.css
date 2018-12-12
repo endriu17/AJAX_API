@@ -82,19 +82,21 @@ td:nth-child(even){
 button {
     display: inline-block;
     border: none;
-    height: 35px;
     margin: 20px;
     width: 150px;
     font-size: 16px;
     font-weight: bold;
     border-radius: 5px;
     color: #fff;
-    background-color: crimson;
+    background-color: #dc143c;
     outline: none;
+    padding: 10px;
 }
 
 button:hover {
-    background-color: rgb(138, 13, 40);
+    background-color: #8a0d28;
+    transform: scale(1.1);
+    transition: 0.2s;
 }
 
 input {
@@ -107,3 +109,9 @@ input {
     font-size: 18px;
 }
 
+p {
+    color: #777474;
+    font-style: italic;
+    margin-left: 20px;
+    margin-top: 5px;
+}
